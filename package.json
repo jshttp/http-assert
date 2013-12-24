@@ -1,0 +1,13 @@
+{
+  "name": "http-assert",
+  "version": "0.0.1",
+  "description": "assert with status codes",
+  "scripts": {
+    "test": "node test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/eivindfjeldstad/http-assert.git"
+  },
+  "license": "MIT"
+}
