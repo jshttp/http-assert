@@ -7,24 +7,11 @@ var assert = require('http-assert');
 var ok = require('assert');
 
 try {
-  assert(username == 'fjodor', 400, 'wrong user');
+  assert(username == 'fjodor', 401, 'authentication failed');
 } catch (err) {
-  ok(err.status == 400);
-  ok(err.message == 'wrong user');
+  ok(err.status == 401);
+  ok(err.message == 'authentication failed');
   ok(err.expose);
-}
-
-
-// you can also pass custom options for the error object
-try {
-  assert(username == 'fjodor', 400, 'unable to authenticate you', {
-  	expose: false, logReason: 'failed to reach auth provider'
-  });
-} catch (err) {
-  ok(err.status == 400);
-  ok(err.message == 'unable to authenticate you');
-  ok(!err.expose);
-  ok(err.logReason == 'failed to reach auth provider');
 }
 ```
 

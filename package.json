@@ -1,6 +1,6 @@
 {
   "name": "http-assert",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "assert with status codes",
   "scripts": {
     "test": "node test"
