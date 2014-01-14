@@ -2,8 +2,8 @@
   "name": "http-assert",
   "version": "0.1.0",
   "description": "assert with status codes",
-  "scripts": {
-    "test": "node test"
+  "devDependencies": {
+    "mocha": "~1.17.0"
   },
   "repository": {
     "type": "git",
