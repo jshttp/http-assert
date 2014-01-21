@@ -15,7 +15,7 @@ module.exports = function (value, status, msg, opts) {
   }
 
   var err = new Error(msg);
-  err.status = status || 500;
+  err.status = status;
   err.expose = status < 500;
   if (opts) merge(err, opts);
   throw err;
