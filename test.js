@@ -35,4 +35,17 @@ describe('assert()', function () {
     ok(err.message == 'fail');
     ok(!err.expose);
   })
+  
+  it('should not expose 5xx errors', function () {
+    var err;
+    
+    try {
+      assert(false, 500);
+    } catch (e) {
+      err = e;
+    }
+    
+    ok(err);
+    ok(!err.expose);
+  });
 })
