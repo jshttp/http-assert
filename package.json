@@ -1,6 +1,6 @@
 {
   "name": "http-assert",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "assert with status codes",
   "devDependencies": {
     "mocha": "~1.17.0"
