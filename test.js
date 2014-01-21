@@ -46,6 +46,7 @@ describe('assert()', function () {
     }
     
     ok(err);
+    ok(err.message == 'Internal Server Error');
     ok(!err.expose);
   });
   

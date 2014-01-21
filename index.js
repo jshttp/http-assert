@@ -11,7 +11,7 @@ module.exports = function (value, status, msg, opts) {
   
   if (typeof msg != 'string') {
     opts = msg;
-    msg = http.STATUS_CODES[tmp];
+    msg = http.STATUS_CODES[status];
   }
 
   var err = new Error(msg);
