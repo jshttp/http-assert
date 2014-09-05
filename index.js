@@ -2,13 +2,13 @@ var http = require('http');
 
 module.exports = function (value, status, msg, opts) {
   if (value) return;
-  
+
   if (typeof status != 'number') {
     opts = msg;
     msg = status;
     status = 500;
   }
-  
+
   if (typeof msg != 'string') {
     opts = msg;
     msg = http.STATUS_CODES[status];
@@ -16,7 +16,7 @@ module.exports = function (value, status, msg, opts) {
 
   var err = new Error(msg);
   err.status = status;
-  err.expose = status < 500;
+  err.expose = http.STATUS_CODES[status] && status < 500;
   if (opts) merge(err, opts);
   throw err;
 }
