@@ -19,5 +19,8 @@
   "keywords": [
     "assert",
     "http"
-  ]
+  ],
+  "dependencies": {
+    "http-errors": "~1.2.0"
+  }
 }
