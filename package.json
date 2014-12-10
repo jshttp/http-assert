@@ -21,7 +21,7 @@
     "http"
   ],
   "dependencies": {
-    "deep-equal": "^0.2.1",
+    "deep-equal": "~0.2.1",
     "http-errors": "~1.2.0"
   }
 }
