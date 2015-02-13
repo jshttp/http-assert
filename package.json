@@ -1,6 +1,6 @@
 {
   "name": "http-assert",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "assert with status codes",
   "devDependencies": {
     "istanbul": "~0.3.0",
