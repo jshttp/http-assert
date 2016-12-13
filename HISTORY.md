@@ -1,3 +1,14 @@
+unreleased
+==========
+
+  * deps: http-errors@~1.5.1
+    - Support new code `421 Misdirected Request`
+    - Use `setprototypeof` module to replace `__proto__` setting
+    - deps: inherits@2.0.3
+    - deps: setprototypeof@1.0.2
+    - deps: statuses@'>= 1.3.1 < 2'
+    - perf: enable strict mode
+
 2016-02-27 / 1.2.0
 ==================
 
