@@ -3,7 +3,7 @@
   "version": "1.2.0",
   "description": "assert with status codes",
   "devDependencies": {
-    "istanbul": "~0.4.2",
+    "istanbul": "0.4.5",
     "mocha": "2.5.3"
   },
   "repository": "jshttp/http-assert",
