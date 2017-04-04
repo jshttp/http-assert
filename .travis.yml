@@ -1,10 +1,11 @@
+language: node_js
 node_js:
 - "0.8"
 - "0.10"
 - "0.12"
 - "4"
 - "5"
-language: node_js
+sudo: false
 before_install:
   # Setup Node.js version-specific dependencies
   - "test $TRAVIS_NODE_VERSION != '0.8' || npm rm --save-dev istanbul"
