@@ -1,11 +1,10 @@
 # http-assert
 
-[![NPM version][npm-image]][npm-url]
-[![Build status][travis-image]][travis-url]
-[![Test coverage][coveralls-image]][coveralls-url]
-[![Dependency Status][david-image]][david-url]
-[![License][license-image]][license-url]
-[![Downloads][downloads-image]][downloads-url]
+[![NPM Version][npm-image]][npm-url]
+[![NPM Downloads][downloads-image]][downloads-url]
+[![Node.js Version][node-version-image]][node-version-url]
+[![Build Status][travis-image]][travis-url]
+[![Test Coverage][coveralls-image]][coveralls-url]
 
 Assert with status codes. Like ctx.throw() in Koa, but with a guard.
 
@@ -27,15 +26,13 @@ try {
 
 MIT
 
-[npm-image]: https://img.shields.io/npm/v/http-assert.svg?style=flat-square
+[npm-image]: https://img.shields.io/npm/v/http-assert.svg
 [npm-url]: https://npmjs.org/package/http-assert
-[travis-image]: https://img.shields.io/travis/jshttp/http-assert.svg?style=flat-square
+[node-version-image]: https://img.shields.io/node/v/http-assert.svg
+[node-version-url]: https://nodejs.org/en/download/
+[travis-image]: https://img.shields.io/travis/jshttp/http-assert/master.svg
 [travis-url]: https://travis-ci.org/jshttp/http-assert
-[coveralls-image]: https://img.shields.io/coveralls/jshttp/http-assert.svg?style=flat-square
-[coveralls-url]: https://coveralls.io/r/jshttp/http-assert?branch=master
-[david-image]: http://img.shields.io/david/jshttp/http-assert.svg?style=flat-square
-[david-url]: https://david-dm.org/jshttp/http-assert
-[license-image]: http://img.shields.io/npm/l/http-assert.svg?style=flat-square
-[license-url]: LICENSE
-[downloads-image]: http://img.shields.io/npm/dm/http-assert.svg?style=flat-square
+[coveralls-image]: https://img.shields.io/coveralls/jshttp/http-assert/master.svg
+[coveralls-url]: https://coveralls.io/r/jshttp/http-assert
+[downloads-image]: https://img.shields.io/npm/dm/http-assert.svg
 [downloads-url]: https://npmjs.org/package/http-assert
