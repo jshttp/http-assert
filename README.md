@@ -1,4 +1,4 @@
-#http-assert
+# http-assert
 
 [![NPM version][npm-image]][npm-url]
 [![Build status][travis-image]][travis-url]
@@ -9,7 +9,7 @@
 
 Assert with status codes. Like ctx.throw() in Koa, but with a guard.
 
-##Example
+## Example
 ```js
 var assert = require('http-assert');
 var ok = require('assert');
@@ -23,7 +23,8 @@ try {
 }
 ```
 
-##Licence
+## Licence
+
 MIT
 
 [npm-image]: https://img.shields.io/npm/v/http-assert.svg?style=flat-square
