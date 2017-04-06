@@ -1,12 +1,21 @@
 {
   "name": "http-assert",
-  "version": "1.2.0",
   "description": "assert with status codes",
+  "version": "1.2.0",
+  "license": "MIT",
+  "keywords": [
+    "assert",
+    "http"
+  ],
+  "repository": "jshttp/http-assert",
+  "dependencies": {
+    "deep-equal": "~1.0.0",
+    "http-errors": "~1.4.0"
+  },
   "devDependencies": {
     "istanbul": "0.4.5",
     "mocha": "2.5.3"
   },
-  "repository": "jshttp/http-assert",
   "files": [
     "LICENSE",
     "index.js"
@@ -15,14 +24,5 @@
     "test": "mocha --reporter spec --bail --check-leaks test/",
     "test-cov": "istanbul cover node_modules/mocha/bin/_mocha -- --reporter dot --check-leaks test/",
     "test-travis": "istanbul cover node_modules/mocha/bin/_mocha --report lcovonly -- --reporter spec --check-leaks test/"
-  },
-  "keywords": [
-    "assert",
-    "http"
-  ],
-  "dependencies": {
-    "deep-equal": "~1.0.0",
-    "http-errors": "~1.4.0"
-  },
-  "license": "MIT"
+  }
 }
