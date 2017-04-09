@@ -24,7 +24,7 @@ try {
 
 ## Licence
 
-MIT
+[MIT](LICENSE)
 
 [npm-image]: https://img.shields.io/npm/v/http-assert.svg
 [npm-url]: https://npmjs.org/package/http-assert
