@@ -14,18 +14,18 @@ unreleased
     - deps: statuses@'>= 1.3.1 < 2'
     - perf: enable strict mode
 
-2016-02-27 / 1.2.0
+1.2.0 / 2016-02-27
 ==================
 
   * deps: http-errors@~1.4.0
 
-2015-02-13 / 1.1.1
+1.1.1 / 2015-02-13
 ==================
 
   * deps: deep-equal@~1.0.0
   * dpes: http-errors@~1.3.1
 
-2014-12-10 / 1.1.0
+1.1.0 / 2014-12-10
 ==================
 
   * Add equality methods
@@ -36,19 +36,19 @@ unreleased
     - `assert.notStrictEqual()`
     - `assert.strictEqual()`
 
-2014-09-10 / 1.0.2
+1.0.2 / 2014-09-10
 ==================
 
   * Fix setting `err.expose` on invalid status
   * Use `http-errors` module
   * perf: remove duplicate status check
 
-2014-01-20 / 1.0.1
+1.0.1 / 2014-01-20
 ==================
 
   * Fix typo causing `err.message` to be `undefined`
 
-2014-01-20 / 1.0.0
+1.0.0 / 2014-01-20
 ==================
 
   * Default status to 500
