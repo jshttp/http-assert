@@ -1,6 +1,8 @@
 unreleased
 ==========
 
+  * deps: deep-equal@~1.0.1
+    - Fix `null == undefined` for non-strict compares
   * deps: http-errors@~1.6.1
     - Accept custom 4xx and 5xx status codes in factory
     - Deprecate using non-error status codes
