@@ -1,5 +1,5 @@
-unreleased
-==========
+1.3.0 / 2017-05-07
+==================
 
   * deps: deep-equal@~1.0.1
     - Fix `null == undefined` for non-strict compares
