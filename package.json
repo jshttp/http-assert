@@ -4,7 +4,7 @@
   "description": "assert with status codes",
   "devDependencies": {
     "istanbul": "~0.4.2",
-    "mocha": "2"
+    "mocha": "^3.2.0"
   },
   "repository": "jshttp/http-assert",
   "files": [
@@ -22,7 +22,7 @@
   ],
   "dependencies": {
     "deep-equal": "~1.0.0",
-    "http-errors": "~1.4.0"
+    "http-errors": "~1.5.1"
   },
   "license": "MIT"
 }
