@@ -1,11 +1,14 @@
 unreleased
 ==========
 
-  * deps: http-errors@~1.5.1
+  * deps: http-errors@~1.6.1
+    - Accept custom 4xx and 5xx status codes in factory
+    - Deprecate using non-error status codes
+    - Make `message` property enumerable for `HttpError`s
     - Support new code `421 Misdirected Request`
     - Use `setprototypeof` module to replace `__proto__` setting
     - deps: inherits@2.0.3
-    - deps: setprototypeof@1.0.2
+    - deps: setprototypeof@1.0.3
     - deps: statuses@'>= 1.3.1 < 2'
     - perf: enable strict mode
 
