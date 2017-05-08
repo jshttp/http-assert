@@ -2,10 +2,6 @@
   "name": "http-assert",
   "version": "1.2.0",
   "description": "assert with status codes",
-  "devDependencies": {
-    "istanbul": "~0.4.2",
-    "mocha": "2"
-  },
   "repository": "jshttp/http-assert",
   "files": [
     "LICENSE",
@@ -21,8 +17,12 @@
     "http"
   ],
   "dependencies": {
-    "deep-equal": "~1.0.0",
-    "http-errors": "~1.4.0"
+    "deep-equal": "^1.0.1",
+    "http-errors": "^1.6.1"
+  },
+  "devDependencies": {
+    "istanbul": "~0.4.5",
+    "mocha": "^3.3.0"
   },
   "license": "MIT"
 }
