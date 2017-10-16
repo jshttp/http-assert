@@ -10,7 +10,7 @@
   "repository": "jshttp/http-assert",
   "dependencies": {
     "deep-equal": "~1.0.1",
-    "http-errors": "~1.6.1"
+    "http-errors": "~1.6.2"
   },
   "devDependencies": {
     "istanbul": "0.4.5",
