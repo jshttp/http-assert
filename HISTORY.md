@@ -1,5 +1,5 @@
-unreleased
-==========
+1.4.0 / 2018-09-09
+==================
 
   * Add `assert.ok()`
   * deps: http-errors@~1.7.1
