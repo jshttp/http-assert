@@ -24,7 +24,9 @@
     "mocha": "2.5.3"
   },
   "files": [
+    "HISTORY.md",
     "LICENSE",
+    "README.md",
     "index.js"
   ],
   "engines": {
