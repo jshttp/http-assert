@@ -83,6 +83,12 @@ Tests strict equality between `a` and `b` as determined by the SameValue
 Comparison (`===`). If `a` and `b` are equal, an `HttpError` is thrown
 that is constructed with the given `status`, `message`, and `properties`.
 
+### assert.ok(value, [status], [message], [properties])
+
+Tests if `value` is truthy. If `value` is not truthy, an `HttpError`
+is thrown that is constructed with the given `status`, `message`,
+and `properties`.
+
 ### assert.strictEqual(a, b, [status], [message], [properties])
 
 Tests strict equality between `a` and `b` as determined by the SameValue

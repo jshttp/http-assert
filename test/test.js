@@ -105,6 +105,25 @@ describe('assert.notEqual()', function () {
   })
 })
 
+describe('assert.ok()', function () {
+  it('should throw when value is falsy', function () {
+    var err
+    try {
+      assert.ok(false, 401, 'fail')
+    } catch (e) {
+      err = e
+    }
+
+    ok(err)
+    ok(err.status === 401)
+    ok(err.message === 'fail')
+  })
+
+  it('should not throw when value is truthy', function () {
+    assert.ok(true, 401, 'fail')
+  })
+})
+
 describe('assert.strictEqual()', function () {
   it('should throw when things aren\'t equal', function () {
     var err

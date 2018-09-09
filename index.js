@@ -16,6 +16,10 @@ assert.notEqual = function (a, b, status, msg, opts) {
   assert(a != b, status, msg, opts) // eslint-disable-line eqeqeq
 }
 
+assert.ok = function (value, status, msg, opts) {
+  assert(value, status, msg, opts)
+}
+
 assert.strictEqual = function (a, b, status, msg, opts) {
   assert(a === b, status, msg, opts)
 }

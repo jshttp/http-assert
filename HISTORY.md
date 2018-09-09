@@ -1,6 +1,7 @@
 unreleased
 ==========
 
+  * Add `assert.ok()`
   * deps: http-errors@~1.7.1
     - Set constructor name when possible
     - deps: depd@~1.1.2
