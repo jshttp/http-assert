@@ -8,6 +8,16 @@
 
 Assert with status codes. Like ctx.throw() in Koa, but with a guard.
 
+## Install
+
+This is a [Node.js](https://nodejs.org/en/) module available through the
+[npm registry](https://www.npmjs.com/). Installation is done using the
+[`npm install` command](https://docs.npmjs.com/getting-started/installing-npm-packages-locally):
+
+```bash
+$ npm install http-assert
+```
+
 ## Example
 ```js
 var assert = require('http-assert')
