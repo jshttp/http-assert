@@ -1,7 +1,7 @@
 # http-assert
 
-[![NPM Version][npm-image]][npm-url]
-[![NPM Downloads][downloads-image]][downloads-url]
+[![NPM Version][npm-version-image]][npm-url]
+[![NPM Downloads][npm-downloads-image]][npm-url]
 [![Node.js Version][node-version-image]][node-version-url]
 [![Build Status][travis-image]][travis-url]
 [![Test Coverage][coveralls-image]][coveralls-url]
@@ -100,13 +100,12 @@ and `properties`.
 
 [MIT](LICENSE)
 
-[npm-image]: https://img.shields.io/npm/v/http-assert.svg
+[coveralls-image]: https://badgen.net/coveralls/c/github/jshttp/http-assert/master
+[coveralls-url]: https://coveralls.io/r/jshttp/http-assert?branch=master
+[node-version-image]: https://badgen.net/npm/node/http-assert
+[node-version-url]: https://nodejs.org/en/download
+[npm-downloads-image]: https://badgen.net/npm/dm/http-assert
 [npm-url]: https://npmjs.org/package/http-assert
-[node-version-image]: https://img.shields.io/node/v/http-assert.svg
-[node-version-url]: https://nodejs.org/en/download/
-[travis-image]: https://img.shields.io/travis/jshttp/http-assert/master.svg
+[npm-version-image]: https://badgen.net/npm/v/http-assert
+[travis-image]: https://badgen.net/travis/jshttp/http-assert/master
 [travis-url]: https://travis-ci.org/jshttp/http-assert
-[coveralls-image]: https://img.shields.io/coveralls/jshttp/http-assert/master.svg
-[coveralls-url]: https://coveralls.io/r/jshttp/http-assert
-[downloads-image]: https://img.shields.io/npm/dm/http-assert.svg
-[downloads-url]: https://npmjs.org/package/http-assert
