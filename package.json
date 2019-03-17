@@ -13,7 +13,7 @@
     "http-errors": "~1.7.1"
   },
   "devDependencies": {
-    "eslint": "5.12.0",
+    "eslint": "5.15.2",
     "eslint-config-standard": "12.0.0",
     "eslint-plugin-import": "2.16.0",
     "eslint-plugin-markdown": "1.0.0",
