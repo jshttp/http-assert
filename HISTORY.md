@@ -1,5 +1,5 @@
-unreleased
-==========
+1.4.1 / 2019-04-28
+==================
 
   * deps: http-errors@~1.7.2
     - deps: setprototypeof@1.1.1
