@@ -96,6 +96,11 @@ Comparison (`===`). If `a` and `b` are not equal, an `HttpError`
 is thrown that is constructed with the given `status`, `message`,
 and `properties`.
 
+### assert.fail([status], [message], [properties])
+
+Always throws an `HttpError` that is constructed with the given `status`,
+`message`, and `properties`.
+
 ## Licence
 
 [MIT](LICENSE)

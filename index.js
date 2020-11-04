@@ -35,3 +35,7 @@ assert.deepEqual = function (a, b, status, msg, opts) {
 assert.notDeepEqual = function (a, b, status, msg, opts) {
   assert(!eql(a, b), status, msg, opts)
 }
+
+assert.fail = function (status, msg, opts) {
+  assert(false, status, msg, opts)
+}
