@@ -1,6 +1,7 @@
 unreleased
 ==========
 
+  * Add `assert.fail()`
   * deps: http-errors@~1.8.0
     - deps: inherits@2.0.4
     - deps: setprototypeof@1.2.0

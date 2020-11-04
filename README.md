@@ -63,6 +63,11 @@ Equality Comparison (`==`). If `a` and `b` are not equal, an `HttpError`
 is thrown that is constructed with the given `status`, `message`,
 and `properties`.
 
+### assert.fail([status], [message], [properties])
+
+Always throws an `HttpError` that is constructed with the given `status`,
+`message`, and `properties`.
+
 ### assert.notDeepEqual(a, b, [status], [message], [properties])
 
 Tests for deep equality between `a` and `b`. Primitive values are

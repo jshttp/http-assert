@@ -8,6 +8,10 @@ function assert (value, status, msg, opts) {
   throw createError(status, msg, opts)
 }
 
+assert.fail = function (status, msg, opts) {
+  assert(false, status, msg, opts)
+}
+
 assert.equal = function (a, b, status, msg, opts) {
   assert(a == b, status, msg, opts) // eslint-disable-line eqeqeq
 }
