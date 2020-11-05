@@ -199,3 +199,18 @@ describe('assert.notDeepEqual()', function () {
     assert.notDeepEqual({ a: 'a' }, { b: 'b' }, 401, 'fail')
   })
 })
+
+describe('assert.fail()', function () {
+  it('should always throw when things fail', function () {
+    var err
+    try {
+      assert.fail(401, 'fail')
+    } catch (e) {
+      err = e
+    }
+
+    ok(err)
+    ok(err.status === 401)
+    ok(err.message === 'fail')
+  })
+})
