@@ -3,7 +3,7 @@
 [![NPM Version][npm-version-image]][npm-url]
 [![NPM Downloads][npm-downloads-image]][npm-url]
 [![Node.js Version][node-version-image]][node-version-url]
-[![Build Status][travis-image]][travis-url]
+[![Build Status][ci-image]][ci-url]
 [![Test Coverage][coveralls-image]][coveralls-url]
 
 Assert with status codes. Like ctx.throw() in Koa, but with a guard.
@@ -100,6 +100,8 @@ and `properties`.
 
 [MIT](LICENSE)
 
+[ci-image]: https://badgen.net/github/checks/jshttp/http-assert/master?label=ci
+[ci-url]: https://github.com/jshttp/http-assert/actions?query=workflow%3Aci
 [coveralls-image]: https://badgen.net/coveralls/c/github/jshttp/http-assert/master
 [coveralls-url]: https://coveralls.io/r/jshttp/http-assert?branch=master
 [node-version-image]: https://badgen.net/npm/node/http-assert
@@ -107,5 +109,3 @@ and `properties`.
 [npm-downloads-image]: https://badgen.net/npm/dm/http-assert
 [npm-url]: https://npmjs.org/package/http-assert
 [npm-version-image]: https://badgen.net/npm/v/http-assert
-[travis-image]: https://badgen.net/travis/jshttp/http-assert/master
-[travis-url]: https://travis-ci.org/jshttp/http-assert
