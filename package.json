@@ -10,7 +10,7 @@
   "repository": "jshttp/http-assert",
   "dependencies": {
     "deep-equal": "~1.0.1",
-    "http-errors": "~1.7.3"
+    "http-errors": "~1.8.0"
   },
   "devDependencies": {
     "eslint": "7.32.0",
