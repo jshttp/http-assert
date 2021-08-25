@@ -1,7 +1,7 @@
 {
   "name": "http-assert",
   "description": "assert with status codes",
-  "version": "1.4.1",
+  "version": "1.5.0",
   "license": "MIT",
   "keywords": [
     "assert",

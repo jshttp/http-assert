@@ -1,5 +1,5 @@
-unreleased
-==========
+1.5.0 / 2021-08-25
+==================
 
   * Add `assert.fail()`
   * deps: http-errors@~1.8.0
