@@ -1,5 +1,5 @@
 var createError = require('http-errors')
-var eql = require('deep-equal')
+var eql = require('fast-deep-equal')
 
 module.exports = assert
 
