@@ -1,8 +1,6 @@
 var createError = require('http-errors')
 var eql = require('dequal').dequal
 
-console.log(eql)
-
 module.exports = assert
 
 function assert(value, status, msg, opts) {
