@@ -3,7 +3,7 @@ var eql = require('dequal').dequal
 
 module.exports = assert
 
-function assert(value, status, msg, opts) {
+function assert (value, status, msg, opts) {
   if (value) return
   throw createError(status, msg, opts)
 }
