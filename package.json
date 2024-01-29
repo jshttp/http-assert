@@ -9,7 +9,7 @@
   ],
   "repository": "jshttp/http-assert",
   "dependencies": {
-    "deep-equal": "~1.0.1",
+    "dequal": "^2.0.3",
     "http-errors": "~1.8.0"
   },
   "devDependencies": {

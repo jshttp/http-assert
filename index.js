@@ -1,9 +1,11 @@
 var createError = require('http-errors')
-var eql = require('deep-equal')
+var eql = require('dequal').dequal
+
+console.log(eql)
 
 module.exports = assert
 
-function assert (value, status, msg, opts) {
+function assert(value, status, msg, opts) {
   if (value) return
   throw createError(status, msg, opts)
 }
