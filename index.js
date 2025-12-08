@@ -5,7 +5,13 @@ module.exports = assert
 
 function assert (value, status, msg, opts) {
   if (value) return
-  throw createError(status, msg, opts)
+  if (msg === undefined) {
+    throw createError(status)
+  } else if (opts === undefined) {
+    throw createError(status, msg)
+  } else {
+    throw createError(status, msg, opts)
+  }
 }
 
 assert.fail = function (status, msg, opts) {
