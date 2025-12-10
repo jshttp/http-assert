@@ -36,7 +36,7 @@ describe('assert()', function () {
     ok(!err.expose)
   })
 
-  it('should accept options for the error object when `msg` is `undefined`', function () {
+  it('should accept options for the error object when msg is undefined', function () {
     var err
 
     try {
