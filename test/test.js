@@ -36,6 +36,21 @@ describe('assert()', function () {
     ok(!err.expose)
   })
 
+  it('should accept options for the error object when msg is undefined', function () {
+    var err
+
+    try {
+      assert(false, 401, undefined, { expose: false })
+    } catch (e) {
+      err = e
+    }
+
+    ok(err)
+    ok(err.status === 401)
+    ok(err.message === 'Unauthorized')
+    ok(!err.expose)
+  })
+
   it('should not expose 5xx errors', function () {
     var err
 
